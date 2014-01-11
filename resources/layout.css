@@ -26,7 +26,7 @@ a:hover {
 	text-decoration: underline;
 }
 
-.content {
+.content  {
 	width: 940px;
 	margin: 0 auto;
 }
@@ -36,11 +36,17 @@ a:hover {
 }
 
 #nav {
+	float: left;
+	width: 200px;
 	margin: 0 20px 0 0;
   /* CHALLENGE 3: how could you get this to float to the left side of the screen? */
 }
 
 #main {
+	float: right;
+	width: 699px;
+	padding-left: 20px;
+	border-left: 1px solid #999;
 	margin: 0;
   /*  CHALLENGE 3: how could you get this to float to the left side of the screen? */
   /* CHALLENGE 2: how could you give this element a one-pixel border down its left side? */
